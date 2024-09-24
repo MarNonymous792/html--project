@@ -1,3 +1,8 @@
+*{
+    background-color: royalblue;
+    color: white;
+}
+
 .teko-font{
     font-family: "Teko", system-ui;
     font-optical-sizing: auto;
@@ -8,4 +13,8 @@
 p{
     font-size: 25px;
 }
+
+
+
+
 
