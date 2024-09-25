@@ -1,18 +1,87 @@
 *{
-    background-color: royalblue;
-    color: white;
+    background-color: #4E31AA;
+    color: #F7F7F8;
+    margin:0px;
+    padding:0px;
 }
 
-.teko-font{
-    font-family: "Teko", system-ui;
+.exo-2-light {
+    font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 100;
     font-style: normal;
+  }
+
+.exo-2-normal {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+.exo-2-bold {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
+/* Lancer HQ Title */
+.webtitle{
+    font-size: 300%;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
 }
 
-p{
-    font-size: 25px;
+/* Boxed Content */
+.box{
+    padding: 0px 20px 20px 20px;
+    margin: 25px 10px;
+    border: 2px solid #3795BD;
+    /* border-radius: 10px 30px; */
+    background-color: #3A1078; 
 }
+
+.box p, .box p a{
+    font-size: 25px;
+    background-color: #3A1078;
+}
+
+.box .title{
+    background-color: #3A1078;
+    text-align: center;
+}
+
+.navbar{
+    margin:10px 0px;
+    text-align: center;
+}
+
+.navbutton{
+    font-size: 20px;
+    padding:0px 5px;
+    background-color: #4E31AA;
+    border:solid #3795BD;
+    border-width: 0px 1px 0px 0px ;
+    font-weight: 300;
+}
+
+/* Footer styling */
+
+.footer{
+    padding: 5px 10px ;
+}
+
+.footer p{
+    margin:10px 0px;
+}
+
+.footer .foot-title{
+   font-size: 150%;
+   margin-left: 50px;
+}
+
+
 
 
 
