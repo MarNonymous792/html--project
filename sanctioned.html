@@ -4,36 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sanctioned</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      ul, ol{
+        background-color: inherit;
+        text-align: center;
+      }
+
+
+    </style>
+
   </head>
   <body>
-    <h1>Lancers HQ <img src="images/ygo_logo.png" alt="Yu-Gi-Oh Logo" /></h1>
-    <hr />
+    <h1 class="exo-2-bold webtitle">Lancers HQ <img src="images/ygo_logo.png" alt="Yu-Gi-Oh Logo" /></h1>
+    
+    <!-- navbar  -->
+    <div class="navbar">
+      <!-- center content of navbar -->
+    <a href="index.html" class="exo-2-light navbutton" style="border-left-width: 1px;">Home</a><a href="products.html" class="exo-2-light navbutton">Products</a><a href="community.html" class="exo-2-light navbutton">Community</a>
+    </div>
 
-    <a href="index.html">Home</a> | <a href="products.html">Products</a> |
-    <a href="community.html">Community</a>
-
     <hr />
-    <h2>Sanctioned Tournament</h2>
-    <p>
+    <div class="box">
+      <h2 class="exo-2-bold title">Sanctioned Tournament</h2>
+    <p class="exo-2-normal">
       Lancers is proud to be an active participant in the YGO Cebu Community
       Sanctioned Tournaments. While our own tournaments at Lancers HQ offer a
       great way to enjoy the game, we also take part in these official events
       organized by the broader YGO Cebu Community.
     </p>
-
-    <p>
+    <br>
+    <p class="exo-2-normal">
       These Sanctioned Tournaments are where serious duelists come to compete at
       a higher level, with official recognition and prizes on the line. By
       joining forces with the YGO Cebu Community, we give our members the
       opportunity to test their skills against the best in Cebu and beyond.
     </p>
+    </div>
+    
+    <div class="box">
+      <h3 class="exo-2-bold title">YGO Cebu Sanctioned Tournament</h3>
 
-    <br />
-    <h3>YGO Cebu Sanctioned Tournament</h3>
+    <h4 class="exo-2-bold title">YuGiOh Day Top 8 (16 players)</h4>
 
-    <h4>YuGiOh Day Top 8 (16 players)</h4>
-
-    <ol>
+    <ol class="exo-2-normal">
       <li>Marc Eugene Dacua (Salamangreat)</li>
       <li>Paulo Illustrisimo (Branded Bystials)</li>
       <li>Rae Cortez (Sky Strikers)</li>
@@ -43,43 +61,51 @@
       <li>Alfred Arcayan (Traptrix)</li>
       <li>Jeremy Solera (Labrynth)</li>
     </ol>
-    <h4>Raffle Winners</h4>
-    <ul>
+    <br>
+    <h4 class="exo-2-bold title">Raffle Winners</h4>
+    <ul class="exo-2-normal">
       <li>Ronel Jade Rosales</li>
       <li>Edison Curameng</li>
     </ul>
+    </div>
 
-    <img src="images/top 8.jpg" alt="Top Cut" />
-    <img src="images/sanctioned.jpg" alt="YGO Day" />
-    <img src="images/raffle.jpg" alt="Raffle Winners" />
+
+      <img src="images/top 8.jpg" alt="Top Cut" class="image-border"/>
+     <img src="images/sanctioned.jpg" alt="YGO Day" class="image-border"/>
+      <img src="images/raffle.jpg" alt="Raffle Winners" class="image-border"/>
+    
     <br />
     <hr />
 
-    <h3>Lancers HQ</h3>
-    <p>Thank you for checking out Lancers HQ!</p>
-
-    <h4>Address</h4>
-    Main Headquarters: Near the University of Cebu
-
-    <h4>Contacts</h4>
-    Email: <a href="#">support@lancers_ygo.com</a> <br />
-    Phone: +63-985-456-2678
-
-    <h4>Follow Us</h4>
-    <a href="https://www.facebook.com">Facebook</a> |
-    <a href="https://www.instagram.com">Instagram</a> |
-    <a href="https://www.x.com">X</a>
-
-    <h4>Join our Community:</h4>
-    <a href="#">Sign up</a> for our newsletter to stay updated on the latest
-    products, tournaments, and community events.
-
+    <!-- footer -->
+    <div class="footer exo-2-normal">
+      <h3 class="foot-title exo-2-bold">Lancers HQ <img src="images/ygo_logo.png" alt="Yu-Gi-Oh Logo" /></h3>
+      <p>Thank you for checking out Lancers HQ!</p>
+  
+      <h4 class="exo-2-bold">Address</h4>
+      <p>Main Headquarters: Near the University of Cebu</p>
+  
+      <h4 class="exo-2-bold">Contacts</h4>
+      <p>Email: <a href="#">support@lancers_ygo.com</a> <br />
+        Phone: +63-985-456-2678</p>
+  
+      <h4 class="exo-2-bold">Follow Us</h4>
+      <p><a href="https://www.facebook.com">Facebook</a> |
+        <a href="https://www.instagram.com">Instagram</a> |
+        <a href="https://www.x.com">X</a>
+      </p>
+  
+  
+      <h4 class="exo-2-bold">Join our Community:</h4>
+      <p><a href="#">Sign up</a> for our newsletter to stay updated on the latest
+        products, tournaments, and community events.</p>
+    </div>
     <hr />
-
-    <h5>
-      Lancers is a fan-driven Yu-Gi-Oh! store and community. We are not
-      officially affiliated with Konami Digital Entertainment.
-    </h5>
-    <h6>Developed by: Dacua, Marc Eugene</h6>
+    <div class="footer exo-2-normal">
+      <h5>
+        Lancers is a fan-driven Yu-Gi-Oh! store and community. We are not
+        officially affiliated with Konami Digital Entertainment. <br>&#169 Developed by MarNonymous792
+      </h5>
+    </div>
   </body>
 </html>
