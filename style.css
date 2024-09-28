@@ -58,18 +58,12 @@ li{
     /* border-radius: 10px 30px; */
     background-color: #3A1078; 
 }
+ 
 
-/* .second{
-    padding: 0px 20px 20px 20px;
-    margin: 25px 10px;
-    border: 2px solid #3795BD;
-    border-radius: 10px 30px;
-    background-color: #1f0546; 
-} */
-
-.box p, .box p a{
+.box p{
     font-size: 20px;
     background-color: inherit;
+    text-align: justify;
 }
 
 .title{
@@ -98,6 +92,21 @@ li{
     font-weight: 300;
 }
 
+/* button style */
+
+.button{
+    background-color: inherit;
+    text-align: center;
+    margin:10px 0px;
+}
+.button a{
+    height:50px;
+    background-color: #4E31AA;
+    border: 2px solid #3795BD;
+    padding:10px; 
+    /* text-decoration: none;
+    border-radius: 10px; */
+}
 
 /* card styling */
 
@@ -105,17 +114,7 @@ li{
     width:210px;
     height:210px;
     padding: 20px 10px 20px 10px;
-    margin: 20px 50px;
-    border: 2px solid #3795BD;
-    /* border-radius: 10px 30px; */
-    background-color: #3A1078;
-    text-align: center; 
-}
-.card-2{
-    width:210px;
-    height:210px;
-    padding: 20px 10px 20px 10px;
-    margin: 20px 5px;
+    margin: 10px 10px 0px 20px;
     border: 2px solid #3795BD;
     /* border-radius: 10px 30px; */
     background-color: #3A1078;
