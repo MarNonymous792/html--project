@@ -79,9 +79,14 @@ li{
     text-align: center;
 }
 
-.navbar{
+.navbar {
     margin:10px 0px;
     text-align: center;
+}
+
+.mini a{
+    font-size: 16px;
+    padding: 5px;
 }
 
 .navbutton{
