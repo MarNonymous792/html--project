@@ -91,6 +91,11 @@ li{
     border-width: 0px 1px 0px 0px ;
     font-weight: 300;
 }
+.navbutton:hover{
+    background-color:#3795BD;
+    border: solid 1px #F7F7F8;
+    
+}
 
 /* button style */
 
@@ -108,6 +113,11 @@ li{
     border-radius: 10px; */
 }
 
+.button a:hover{
+    background-color: #F7F7F8;
+    color:  #4E31AA;
+}
+
 /* card styling */
 
 .card{
@@ -119,10 +129,15 @@ li{
     /* border-radius: 10px 30px; */
     background-color: #3A1078;
     text-align: center; 
+    display: inline-block;
 }
 
 .card li a{
     background-color: inherit;
+}
+
+.card li a:hover{
+    color: rgba(247, 247, 248, 0.507);
 }
 
 .tray{
@@ -155,6 +170,9 @@ li{
    margin-left: 50px;
 }
 
+.footer a:hover{
+    color: rgba(247, 247, 248, 0.507);
+}
 
 
 
