@@ -137,6 +137,11 @@ li {
   display: inline-block;
 }
 
+.card img{
+  height: 174px;
+  width: 84px;
+}
+
 .card li a {
   background-color: inherit;
 }
