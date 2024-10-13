@@ -154,6 +154,17 @@ li{
     text-align: justify; 
 }
 
+.tray img{
+    width: 100px;
+    height: 140px;
+}
+
+.tray img:hover{
+    border: 2px solid #F7F7F8;
+    height: 135px;
+    width: 95px; 
+}
+
 .tray-title{
     font-size: 25px;
     margin-top:10px;
