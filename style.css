@@ -1,197 +1,191 @@
-*{
-    background-color: #4E31AA;
-    color: #F7F7F8;
-    margin:0px;
-    padding:0px;
+* {
+  background-color: #4e31aa;
+  color: #f7f7f8;
+  margin: 0px;
+  padding: 0px;
 }
 
-ol, ol a{
-    background-color: inherit;
-    color: #F7F7F8;
+ol,
+ol a {
+  background-color: inherit;
+  color: #f7f7f8;
 }
 
-li{
-    background-color: inherit;
-    list-style-position: inside;
+li {
+  background-color: inherit;
+  list-style-position: inside;
 }
 
-.image-border{
-    border:2px solid #3795BD;
-    margin:5px;
+.image-border {
+  border: 2px solid #3795bd;
+  margin: 5px;
 }
-
 
 /* Fonts */
 .exo-2-light {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: italic;
-  }
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
 
 .exo-2-normal {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: italic;
-  }
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
 
 .exo-2-bold {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
 }
 /* Lancer HQ Title */
-.webtitle{
-    font-size: 300%;
-    margin-left: 50px;
-    padding: 10px;
-    text-align: center;
+.webtitle {
+  font-size: 300%;
+  margin-left: 50px;
+  padding: 10px;
+  text-align: center;
 }
 
 /* Boxed Content */
-.box{
-    padding: 0px 20px 20px 20px;
-    margin: 25px 10px;
-    border: 2px solid #3795BD;
-    /* border-radius: 10px 30px; */
-    background-color: #3A1078; 
-}
- 
-.square{
-    margin-top: 0px !important;
-    width: 694px;
-    display: inline-block;
-}
-.box p{
-    font-size: 20px;
-    background-color: inherit;
-    text-align: justify;
+.box {
+  padding: 0px 20px 20px 20px;
+  margin: 5px;
+  border: 2px solid #3795bd;
+  /* border-radius: 10px 30px; */
+  background-color: #3a1078;
 }
 
-.title{
-    margin: 10px 0px;
-    font-size: 25px;
-    background-color: inherit;
+.wrap{
     text-align: center;
+}
+.wrap .box{
+    display: inline-block;
+    width: 45%;
+}
+.box p {
+  font-size: 20px;
+  background-color: inherit;
+  text-align: justify;
+}
+
+.title {
+  margin: 10px 0px;
+  font-size: 25px;
+  background-color: inherit;
+  text-align: center;
 }
 
 .navbar {
-    margin:10px 0px;
-    text-align: center;
+  margin: 10px 0px;
+  text-align: center;
 }
 
-.mini a{
-    font-size: 16px;
-    padding: 5px;
+.mini a {
+  font-size: 16px;
+  padding: 5px;
 }
 
-.navbutton{
-    font-size: 20px;
-    padding:0px 5px;
-    background-color: #4E31AA;
-    border:solid #3795BD;
-    border-width: 0px 1px 0px 0px ;
-    font-weight: 300;
+.navbutton {
+  font-size: 20px;
+  padding: 0px 5px;
+  background-color: #4e31aa;
+  border: solid #3795bd;
+  border-width: 0px 1px 0px 0px;
+  font-weight: 300;
 }
-.navbutton:hover{
-    background-color:#3795BD;
-    border: solid 1px #F7F7F8;
-    
+.navbutton:hover {
+  background-color: #3795bd;
+  border: solid 1px #f7f7f8;
 }
 
 /* button style */
 
-.button{
-    background-color: inherit;
-    text-align: center;
-    margin:10px 0px;
+.button {
+  background-color: inherit;
+  text-align: center;
+  margin: 10px 0px;
 }
-.button a{
-    height:50px;
-    background-color: #4E31AA;
-    border: 2px solid #3795BD;
-    padding:10px; 
-    /* text-decoration: none;
+.button a {
+  height: 50px;
+  background-color: #4e31aa;
+  border: 2px solid #3795bd;
+  padding: 10px;
+  /* text-decoration: none;
     border-radius: 10px; */
 }
 
-.button a:hover{
-    background-color: #F7F7F8;
-    color:  #4E31AA;
+.button a:hover {
+  background-color: #f7f7f8;
+  color: #4e31aa;
 }
 
 /* card styling */
 
-.card{
-    width:210px;
-    height:210px;
-    padding: 20px 10px 20px 10px;
-    margin: 10px 10px 0px 20px;
-    border: 2px solid #3795BD;
-    /* border-radius: 10px 30px; */
-    background-color: #3A1078;
-    text-align: center; 
-    display: inline-block;
+.card {
+  width: 210px;
+  height: 210px;
+  padding: 20px 10px 20px 10px;
+  margin: 10px 10px 0px 20px;
+  border: 2px solid #3795bd;
+  /* border-radius: 10px 30px; */
+  background-color: #3a1078;
+  text-align: center;
+  display: inline-block;
 }
 
-.card li a{
-    background-color: inherit;
+.card li a {
+  background-color: inherit;
 }
 
-.card li a:hover{
-    color: rgba(247, 247, 248, 0.507);
+.card li a:hover {
+  color: rgba(247, 247, 248, 0.507);
 }
 
-.tray{
-    width: max-content;
-    padding: 20px 10px 20px 10px;
-    margin: 25px 10px;
-    border: 2px solid #3795BD;
-    /* border-radius: 10px 30px; */
-    background-color: #3A1078;
-    text-align: justify; 
+.tray {
+  width: max-content;
+  padding: 20px 10px 20px 10px;
+  margin: 25px 10px;
+  border: 2px solid #3795bd;
+  /* border-radius: 10px 30px; */
+  background-color: #3a1078;
+  text-align: justify;
 }
 
-.tray img{
-    width: 100px;
-    height: 140px;
+.tray img {
+  width: 100px;
+  height: 140px;
 }
 
-.tray img:hover{
-    border: 2px solid #F7F7F8;
-    height: 135px;
-    width: 95px; 
+.tray img:hover {
+  border: 2px solid #f7f7f8;
+  height: 135px;
+  width: 95px;
 }
 
-.tray-title{
-    font-size: 25px;
-    margin-top:10px;
-    margin-left: 20px;
+.tray-title {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 /* Footer styling */
 
-.footer{
-    padding: 5px 10px ;
+.footer {
+  padding: 5px 10px;
 }
 
-.footer p{
-    margin:10px 0px;
+.footer p {
+  margin: 10px 0px;
 }
 
-.footer .foot-title{
-   font-size: 150%;
-   margin-left: 50px;
+.footer .foot-title {
+  font-size: 150%;
+  margin-left: 50px;
 }
 
-.footer a:hover{
-    color: rgba(247, 247, 248, 0.507);
+.footer a:hover {
+  color: rgba(247, 247, 248, 0.507);
 }
-
-
-
-
-
-
-
