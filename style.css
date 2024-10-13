@@ -59,7 +59,11 @@ li{
     background-color: #3A1078; 
 }
  
-
+.square{
+    margin-top: 0px !important;
+    width: 694px;
+    display: inline-block;
+}
 .box p{
     font-size: 20px;
     background-color: inherit;
