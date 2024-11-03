@@ -1,196 +1,341 @@
-* {
-  background-color: #4e31aa;
-  color: #f7f7f8;
-  margin: 0px;
-  padding: 0px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
 }
 
-ol,
-ol a {
-  background-color: inherit;
-  color: #f7f7f8;
+.navbar{
+    list-style: none;
+    background-color: #342276;
+    position: fixed;
+    top:0; 
+    width: 100%;
+    z-index: 1; 
 }
 
-li {
-  background-color: inherit;
-  list-style-position: inside;
+.logo{
+    border-right: 0.13rem solid #f1f1f1;
+
 }
 
-.image-border {
-  border: 2px solid #3795bd;
-  margin: 5px;
+.navbar li{
+    display: inline-block;
+    position: relative;
 }
 
-/* Fonts */
-.exo-2-light {
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: italic;
+.navbar li a{
+    display: block;
+    padding: 20px 25px;
+    color: #f1f1f1;
+    text-decoration: none;
+    text-align: center;
+    font: 1rem;
+    transition: .5s ease;
 }
 
-.exo-2-normal {
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.exo-2-bold {
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
-}
-/* Lancer HQ Title */
-.webtitle {
-  font-size: 300%;
-  margin-left: 50px;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Boxed Content */
-.box {
-  padding: 0px 20px 20px 20px;
-  margin: 5px;
-  border: 2px solid #3795bd;
-  border-radius: 10px 30px;
-  background-color: #3a1078;
-}
-
-.wrap{
+.navbar .logo{
+    padding: 20px 25px;
+    color: #f1f1f1;
     text-align: center;
 }
-.wrap .box{
-    display: inline-block;
-    width: 45%;
+
+.dropdown{
+    display: none;
+    width: 100%;
+    background-color: #342276;
+    position: absolute;
+    z-index: 2;
+    
 }
-.box p {
-  font-size: 20px;
-  background-color: inherit;
-  text-align: justify;
+.navbar li a:hover{
+    background-color: #C8C488;
+    color: #000;
+}
+.navbar li:hover .dropdown{
+    display: block;
 }
 
-.title {
-  margin: 10px 0px;
-  font-size: 25px;
-  background-color: inherit;
-  text-align: center;
+.dropdown li{
+    display: block;
 }
 
-.navbar {
-  margin: 10px 0px;
-  text-align: center;
-}
-
-.mini a {
-  font-size: 16px;
-  padding: 5px;
-}
-
-.navbutton {
-  font-size: 20px;
-  padding: 0px 5px;
-  background-color: #4e31aa;
-  border: solid #3795bd;
-  border-width: 0px 1px 0px 0px;
-  font-weight: 300;
-}
-.navbutton:hover {
-  background-color: #3795bd;
-  border: solid 1px #f7f7f8;
-}
-
-/* button style */
-
-.button {
-  background-color: inherit;
-  text-align: center;
-  margin: 10px 0px;
-}
-.button a {
-  height: 50px;
-  background-color: #4e31aa;
-  border: 2px solid #3795bd;
-  padding: 10px;
-  text-decoration: none;
+.hero-image {
+    background-image: linear-gradient(rgba(35, 50, 83, 0.5),rgba(52, 34, 118, 0.5)), url("./Arc_V_Lancers_Selection.png");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.3vw;
+    text-shadow: 2px 2px #4e4e4e;
+  }
+  
+  .hero-text button {
+    border: none;
     border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #f1f1f1;
+    background-color: #6D3D6E;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+  
+  .hero-text button:hover {
+    background-color: #C8C488;
+    color: #000;
+  }
+
+  #container1{
+    height: 60%;
+    background: #C8C488;
+    position:relative;
+    
+  } 
+  #container2{
+    height: 80%;
+    background-color: #6D3D6E;
+    position: relative;
+}
+#container1 .content{
+    color: #000;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px #f1f1f1;
 }
 
-.button a:hover {
-  background-color: #f7f7f8;
-  color: #4e31aa;
+.cards{
+    margin-top:20px;
+    width: 100%;
+    text-align: center;
+   
 }
 
-/* card styling */
+.card{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
 
-.card {
-  width: 210px;
-  height: 210px;
-  padding: 20px 10px 20px 10px;
-  margin: 10px 10px 0px 20px;
-  border: 2px solid #3795bd;
-  border-radius: 10px 30px;
-  background-color: #3a1078;
-  text-align: center;
-  display: inline-block;
 }
 
 .card img{
-  height: 174px;
-  width: 84px;
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 10px;
+}
+.card-overlay{
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #233253;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
 }
 
-.card li a {
-  background-color: inherit;
+.card:hover .card-overlay{
+    height: 100%;
+}
+  
+.card-text {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px #4e4e4e;
+  }
+
+.card-text button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #f1f1f1;
+    background-color: #6D3D6E;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+
+  
+.card-text button:hover{
+    background-color: #C8C488;
+    color: #000;
 }
 
-.card li a:hover {
-  color: rgba(247, 247, 248, 0.507);
+#container2 > .content{
+    color: #f1f1f1;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px #4e4e4e;
 }
 
-.tray {
-  width: max-content;
-  padding: 20px 10px 20px 10px;
-  margin: 25px 10px;
-  border: 2px solid #3795bd;
-  border-radius: 10px 30px;
-  background-color: #3a1078;
-  text-align: justify;
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    padding: 1rem;
 }
 
-.tray img {
-  width: 100px;
-  height: 140px;
+.container p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%,-50%);
+    text-align: center;
+    z-index: 1;
+    font-size: larger;
 }
 
-.tray img:hover {
-  border: 2px solid #f7f7f8;
-  height: 135px;
-  width: 95px;
+.container img{
+    border-radius: 10px;
+    box-shadow: 2px 2px #C8C488;
+
 }
 
-.tray-title {
-  font-size: 25px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-/* Footer styling */
-
-.footer {
-  padding: 5px 10px;
-}
-
-.footer p {
-  margin: 10px 0px;
-}
-
-.footer .foot-title {
-  font-size: 150%;
-  margin-left: 50px;
+.container button{
+    margin-top: 3px;
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #f1f1f1;
+    background-color: #342276;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
 }
 
-.footer a:hover {
-  color: rgba(247, 247, 248, 0.507);
+.container button:hover{
+    background-color: #C8C488;
+    color: #000;
+}
+
+.newsletter{
+    height: 60%;
+    background-color: #342276;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.newsletter h1, .newsletter p{
+    color:#f1f1f1;
+    text-align: center;
+    text-shadow: 2px 2px #4e4e4e;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.newsletter p{
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+
+.newsletter > .container{
+    width: 50%;
+    padding: 6rem;
+    background-color: #6D3D6E;
+    position: relative;
+}
+
+.email-box button{
+    margin-top: 3px;
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #f1f1f1;
+    background-color: #6D3D6E;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.email-box button:hover{
+    background-color: #C8C488;
+    color: #000;
+}
+
+.news-container > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-box{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    border: 0.15rem solid #f1f1f1;
+    border-radius:0.3rem;
+    display: inline-block;
+    transition: 0.5s ease
+}
+
+input[type=text]{
+    padding: 0.3rem 1rem;
+    outline: none;
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: #f1f1f1;
+}
+input[type=text]::placeholder{
+    color:#F1F1F1;
+}
+
+i{
+    transform: scale(1.3);
+    color:#f1f1f1;
+    transition: 0.5s ease;
+}
+
+.email-box:hover, .email-box:hover i{
+    color:#6D3D6E;
+    border-color:#6D3D6E;
+}
+
+.footer{
+    height: 50%;
+    background-color: #233253;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
 }
