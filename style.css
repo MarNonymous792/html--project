@@ -359,11 +359,12 @@ i{
 
 .social-icons i{
     font-size: 2rem;
+    transition:0.3s ease;
 }
 
 .social-icons i:hover{
     color:#6D3D6E;
-    transition:0.3s ease;
+    
 }
 
 .social-icons{
@@ -386,8 +387,9 @@ i{
     text-decoration: none;
     color: #f1f1f1;
     letter-spacing: .15rem;
+    transition: 0.3s ease;
 }
 
 .copyright a:hover{
-    color:#6D3D6E
+    color:#6D3D6E;
 }
