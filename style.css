@@ -22,7 +22,7 @@ body, html {
 
 .logo{
     border-right: 0.13rem solid #f1f1f1;
-
+    letter-spacing: .5rem;
 }
 
 .navbar li{
@@ -338,4 +338,26 @@ i{
     align-items: center;
     justify-content:space-around;
     
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    color: #f1f1f1;
+}
+
+.social-icons i{
+    font-size: 2rem;
+}
+
+.social-icons i:hover{
+    color:#6D3D6E;
+    transition:0.5s ease;
+}
+
+.social-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
