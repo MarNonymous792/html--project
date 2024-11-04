@@ -361,3 +361,23 @@ i{
     display: flex;
     justify-content: space-around;
 }
+
+.copyright{
+    height:40px;
+    background-color: #342276;
+}
+
+.copyright p{
+    color: #f1f1f1;
+    padding:10px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #f1f1f1;
+    letter-spacing: .15rem;
+}
+
+.copyright a:hover{
+    color:#6D3D6E
+}
