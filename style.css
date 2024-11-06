@@ -199,7 +199,7 @@ html {
   transition: 0.5s ease;
 }
 
-.card-text button:hover {
+.card-overlay button:hover {
   background-color: #c8c488;
   color: #000;
 }
