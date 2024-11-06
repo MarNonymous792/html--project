@@ -316,7 +316,7 @@ h1 {
   border: 0.15rem solid #f1f1f1;
   border-radius: 0.3rem;
   display: inline-block;
-  transition: 0.5s ease;
+  transition: 0.5 ease;
 }
 
 input[type="text"] {
@@ -337,8 +337,7 @@ i {
   transition: 0.5s ease;
 }
 
-.email-box:hover,
-.email-box:hover i {
+.email-box:hover, .email-box:hover i{
   color: #6d3d6e;
   border-color: #6d3d6e;
 }
@@ -402,7 +401,8 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-padding:1rem 0;
+  padding: 1rem 0;
+  padding-bottom: 3rem;
 }
 
 .article h1 {
@@ -418,13 +418,12 @@ padding:1rem 0;
   overflow: auto;
   padding: 10px;
   flex-direction: row;
-  justify-content: space-between;
   gap: 10px;
 }
 .product-contain .card-overlay {
   background-color: #c8c488;
   display: flex;
-  gap:3rem;
+  gap: 3rem;
 }
 
 .product-contain .card-text,
@@ -435,41 +434,44 @@ padding:1rem 0;
   text-align: center;
 }
 
-.product-contain .card-text{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+.product-contain .card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.product-contain p{
-    font-style: italic;
+.product-contain p {
+  font-style: italic;
 }
 
 .icons {
-    display: flex;
-    gap:5rem;
+  display: flex;
+  gap: 5rem;
 }
 
-.icons i{
-    flex: 6;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    cursor: pointer;
+.icons i {
+  flex: 6;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
 }
 
+.icons i:hover{
+  color: #233253;
+}
 /* scroll bar style */
-::-webkit-scrollbar{
-    width: 10px;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-::-webkit-scrollbar-track{
-    box-shadow: inset 0 0 5px #f1f1f1;
-    border-radius: 10px;
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f1f1f1;
+  border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb{
-    background: #342276;
-    border-radius: 10px;
+::-webkit-scrollbar-thumb {
+  background: #342276;
+  border-radius: 10px;
 }
 
