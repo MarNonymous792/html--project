@@ -424,7 +424,7 @@ padding:1rem 0;
 .product-contain .card-overlay {
   background-color: #c8c488;
   display: flex;
-  gap:5rem;
+  gap:3rem;
 }
 
 .product-contain .card-text,
@@ -432,6 +432,17 @@ padding:1rem 0;
   font-size: 1.3rem;
   color: black;
   text-shadow: none;
+  text-align: center;
+}
+
+.product-contain .card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.product-contain p{
+    font-style: italic;
 }
 
 .icons {
