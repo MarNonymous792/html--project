@@ -76,6 +76,86 @@ html {
   display: block;
 }
 
+#about {
+  background-image: linear-gradient(
+      rgba(35, 50, 83, 0.5),
+      rgba(52, 34, 118, 0.5)
+    ),
+    url("./Arc_V_Lancers_Selection.png");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-size: 1.3vw;
+  text-shadow: 2px 2px #4e4e4e;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 5rem;
+}
+
+#mission,#vision {
+  display: flex;
+}
+
+#vision{
+  flex-direction: row-reverse;
+}
+
+#mission .content, #vision .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #6d3d6e;
+  width: 50%;
+  height: auto;
+  font: 1.3vw;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: white;
+  font-size: 1.3vw;
+  text-shadow: 2px 2px #4e4e4e;
+}
+
+#mission .mission-img {
+  width: 50%;
+  height: 500px;
+  background-image: linear-gradient(90deg,
+      rgba(109, 61, 110, 0),
+      rgba(109, 61, 110, 0.5),
+      rgba(109, 61, 110, 0.5)
+    ),
+    url("./images/mission-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#vision .vision-img {
+  width: 50%;
+  height: 500px;
+  background-image: linear-gradient(90deg,
+    rgba(200, 196, 136, 0.5),
+    rgba(200, 196, 136, 0)
+    ),
+    url("./images/vision.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#vision .content{
+  background-color: #c8c488;
+  color: #000;
+  text-shadow: 2px 2px #f1f1f1;
+}
+
+
+
+
+
 .hero-image {
   background-image: linear-gradient(
       rgba(35, 50, 83, 0.5),
@@ -337,7 +417,8 @@ i {
   transition: 0.5s ease;
 }
 
-.email-box:hover, .email-box:hover i{
+.email-box:hover,
+.email-box:hover i {
   color: #6d3d6e;
   border-color: #6d3d6e;
 }
@@ -457,7 +538,7 @@ i {
   cursor: pointer;
 }
 
-.icons i:hover{
+.icons i:hover {
   color: #233253;
 }
 /* scroll bar style */
@@ -474,4 +555,3 @@ i {
   background: #342276;
   border-radius: 10px;
 }
-
