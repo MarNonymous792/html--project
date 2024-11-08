@@ -595,4 +595,43 @@ i {
   border-radius: 10px;
 }
 
+/* singles cards */
+
+.c img{
+  width: 200px;
+}
+
+.c{
+  background-color: #c8c488;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 10px;
+  border: 2px solid #414141;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.c-icons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.c-icons i:hover{
+  color: #f1f1f1;
+}
+
+h2.title{
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding:0.5rem;
+  font-size: 2vw;
+  color: #f1f1f1;
+  text-shadow: 2px 2px #414141;
+}
 
