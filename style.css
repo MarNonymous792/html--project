@@ -673,6 +673,7 @@ border-radius: 10px;
   color: #000;
   text-shadow: 2px 2px #f1f1f1;
   border-radius: 10px 10px 0px 0px ;
+  box-shadow: 0px 1px 10px #414141;
 }
 
 .product{
@@ -718,7 +719,6 @@ padding:20px;
 text-align: center;
 justify-content: space-evenly;
 align-items: center;
-
 }
 
 
