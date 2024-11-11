@@ -679,9 +679,10 @@ border-radius: 10px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #6d3d6e;
+  background-color: white;
   border-radius: 10px;
   margin-bottom:10px;
+  align-items:center;
 }
 
 
@@ -690,10 +691,26 @@ border-radius: 10px;
   width:100%;
   height:200px;
   border-radius: 10px 10px 0 0;
-  background:white;
+}
+
+.sleeves img{
+  width: 60%;
+  background-color: white;
+}
+
+.cfile img{
+  width: 60%;
+  background-color: white;
+}
+
+.deckbox img{
+  width: 60%;
+  background-color: white;
 }
 
 .detail{
+  border-radius: 0 0 10px 10px;
+  background-color: #6d3d6e;
 width: 100%;
 display: flex;
 flex-direction: row;
@@ -721,3 +738,6 @@ align-items: center;
 .detail > i:hover{
   color: #c8c488;
 }
+
+
+
