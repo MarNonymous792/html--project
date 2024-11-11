@@ -29,6 +29,7 @@ html {
 .navbar li {
   display: inline-block;
   position: relative;
+  
 }
 
 .navbar li a {
@@ -63,6 +64,8 @@ html {
   background-color: #342276;
   position: absolute;
   z-index: 2;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px -1px 10px #414141;
 }
 .navbar li a:hover {
   background-color: #c8c488;
@@ -72,9 +75,15 @@ html {
   display: block;
 }
 
+.dropdown li:last-child a{
+  border-radius: 0px 0px 10px 10px;
+}
+
 .dropdown li {
   display: block;
 }
+
+
 
 #about {
   background-image: linear-gradient(
