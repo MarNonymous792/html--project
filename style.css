@@ -605,6 +605,11 @@ i {
 
 .c img {
   width: 200px;
+  transition: 0.3s ease;
+}
+
+.c img:hover{
+  transform: scale(105%);
 }
 
 .c {
@@ -765,6 +770,7 @@ h2.title {
 
 .tourna:hover {
   box-shadow: 0 0 3px 1px #f1f1f1;
+  transform: scale(110%);
 }
 
 .tourna img {
@@ -792,3 +798,30 @@ h2.title {
   text-align: left;
 }
 
+.tourna-content{
+  border-radius: 10px;
+  width:70%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.content-image{
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px 10px 0 0;
+}
+
+.content-desc{
+  background-color: #c8c488;
+  color: #000;
+  text-shadow: 1px 1px #f1f1f1;
+  list-style-position: inside;
+  text-align: center;
+  padding:20px;
+  border-radius: 0 0 10px 10px;
+}
+.content-image img{
+  width: 50%;
+}
