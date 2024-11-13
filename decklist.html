@@ -11,6 +11,54 @@
     <script src="https://kit.fontawesome.com/d972c1f784.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Deck List</title>
+
+    <style>
+
+        .decklist{
+            width: 100%;
+            display: flex;
+            flex-direction: row;  
+            justify-content: space-evenly;
+            margin-top: 50px;
+            flex-wrap: wrap;
+            gap:30px;
+        }
+        .deck{
+            width:300px;
+            height:300px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            transition: 0.5s ease;
+        }
+
+        .deck img{
+            width: 100%;
+            height:80%;
+            border-radius:10px 10px 0px 0px;
+        }
+
+        .deck .deckname{
+            background-color: #c8c488;
+            display: flex;
+            width: 100%;
+            height: 20%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+
+        .deck:hover{
+            box-shadow: 0 0 5px 3px #414141;
+            transform: scale(105%);
+        }
+
+        .decklist a{
+            text-decoration: none;
+            color:#000;
+        }
+    </style>
 </head>
 <body>
     <ul class="navbar">
@@ -33,6 +81,56 @@
             </ul>
         </li>
     </ul>
+
+    <div class="article">
+        <h1 class="title">Deck Lists</h1>
+        <div class="decklist">
+           
+            <a href=""><div class="deck">
+                <img src="./Arc_V_Lancers_Selection.png" alt="">
+                <h3 class="deckname">Deck name</h3>
+            </div>
+            </a>
+
+            
+            <a href=""><div class="deck">
+                <img src="./Arc_V_Lancers_Selection.png" alt="">
+                <h3 class="deckname">Deck name</h3>
+            </div>
+            </a>
+
+            
+            <a href=""><div class="deck">
+                <img src="./Arc_V_Lancers_Selection.png" alt="">
+                <h3 class="deckname">Deck name</h3>
+            </div>
+            </a>
+
+            
+            <a href=""><div class="deck">
+                <img src="./Arc_V_Lancers_Selection.png" alt="">
+                <h3 class="deckname">Deck name</h3>
+            </div>
+            </a>
+
+            
+            <a href=""><div class="deck">
+                <img src="./Arc_V_Lancers_Selection.png" alt="">
+                <h3 class="deckname">Deck name</h3>
+            </div>
+            </a>
+
+            
+            <a href=""><div class="deck">
+                <img src="./Arc_V_Lancers_Selection.png" alt="">
+                <h3 class="deckname">Deck name</h3>
+            </div>
+            </a>
+            
+
+
+        </div>
+    </div>
     
     <div class="footer">
         <div class="footer-content">
