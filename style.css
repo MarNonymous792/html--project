@@ -732,6 +732,8 @@ h2.title {
   text-shadow: 2px 2px #414141;
 }
 
+
+
 .detail > i:hover {
   color: #c8c488;
 }
@@ -805,6 +807,7 @@ h2.title {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
+  box-shadow: 0 0 5px 3px ;
 }
 
 .content-image{
@@ -824,4 +827,65 @@ h2.title {
 }
 .content-image img{
   width: 50%;
+}
+
+.d{
+  width: 40%;
+  background-color: #c8c488;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 3px #414141;
+}
+.d-name{
+  font-size: 2rem;
+  padding: 20px 0px;
+  text-shadow: 1px 1px #f1f1f1;
+  width: 100%;
+  text-align: center;
+}
+.d-name i{
+  color:#233253;
+  font-size: 1.3rem;
+  vertical-align: text-top;
+  position:relative;
+  right:20px;
+  float: right;
+}
+
+.d-name i:hover{
+  color: #f1f1f1;
+}
+.d img{
+  width: 95%;
+  height: 350px;
+  border-radius: 5px;
+  border:1px solid #414141;
+  transition: 0.3s ease;
+}
+
+.d img:hover{
+  box-shadow: 0 0 5px 3px #414141;
+  transform: scale(110%);
+}
+
+.d-desc{
+  width: 85%;
+  text-shadow: 1px 1px #f1f1f1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.imgs > img {
+  width: 50%;
+}
+
+.imgs {
+  display: flex;
+  width: 95%;
+  flex-direction: row;
+  justify-content: center;
 }
