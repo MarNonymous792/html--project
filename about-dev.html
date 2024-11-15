@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,96 @@
     <script src="https://kit.fontawesome.com/d972c1f784.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>About Developer</title>
+
+
+    <style>
+        .article {
+            background: linear-gradient(rgba(35, 50, 83, 0.5),
+                    rgba(52, 34, 118, 0.5)), url('./Arc_V_Lancers_Selection.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
+        }
+
+        .dev {
+            padding:50px 20px;
+            background: linear-gradient(90deg,rgba(109, 61, 110, 1),rgba(35, 50, 83, 1));
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap:50px;
+            justify-content: space-evenly;
+            width: 80%;
+            border-radius: 15px;
+        }
+
+        .dev img {
+            margin-left: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px 5px #c8c488;
+            transition: 0.3s ease;
+        }
+        .dev img:hover {
+            transform: scale(105%);
+        }
+
+        .dev-details{
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+        }
+
+        .detail-text{
+            color: #c8c488;
+            text-shadow: 1px 1px #6d3d6e;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+           align-items: left;
+        }
+
+        .detail-text h2{
+            padding:10px;
+            font-size: 2rem;
+        }
+        .detail-text p{
+            padding:10px;
+            font-size: 1.5rem;
+        }
+
+        .detail-text a{
+            
+            text-decoration:dashed;
+            color: #c8c488;
+            text-shadow: 1px 1px #6d3d6e;
+            
+        }
+        .detail-text a:hover{
+            color: rgb(200, 196, 136,0.5);
+        }
+
+        .detail-icons{
+            margin-top: 20px;
+            display: flex;
+            width: 50%;
+            justify-content: space-evenly;
+        }
+
+        .dev-details i{
+            color: #c8c488;
+            text-shadow: 1px 1px #6d3d6e;
+            font-size: 1.5rem;
+            transition: 0.3s ease;
+        }
+
+        .dev-details i:hover{
+            color: #342276;
+        }
+    </style>
 </head>
+
 <body>
     <ul class="navbar">
         <li class="logo">Lancers HQ</li>
@@ -33,29 +123,34 @@
             </ul>
         </li>
     </ul>
-    
-    <div class="footer">
-        <div class="footer-content">
-            <div>
-                <h2>Lancers HQ</h2>
-                <p>Thank you for checking out Lancers HQ</p>
+
+    <div class="article">
+        <h1 class="title">Meet the Dev!</h1>
+        <div class="dev">
+            <img src="./dev.jpg" alt="">
+            <div class="dev-details">
+                <div class="detail-text">
+                    <h2>Hi, I'm Marc Eugene</h2>
+                    <p>I am a 1st-year IT student in University of Cebu - College of Computer Studies</p>
+                    <p>This website is inspired from my group of friends, the Lancers, who shared and loved a common hobby as I do, The Yu-Gi-Oh Card Game.</p>
+                    <p>Have fun exploring <a href="index.html">Lancers HQ</a></p>
+                </div>
+                <div class="detail-icons">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.discord.com"><i class="fa-brands fa-discord"></i></a>
+                </div>
             </div>
-            <div class="social-icons">
-                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.discord.com"><i class="fa-brands fa-discord"></i></a>
-            </div>
-            <a href="./about-dev.html" class="about-dev-btn">
-                About Developer
-            </a>
         </div>
     </div>
 
     <div class="copyright">
-        <p>Lancers is a fan-driven Yu-Gi-Oh! store and community. We are not officially affiliated with Konami Digital Entertainment.
+        <p>Lancers is a fan-driven Yu-Gi-Oh! store and community. We are not officially affiliated with Konami Digital
+            Entertainment.
             © Developed by <a href="about-dev.html">MarNonymous792</a></p>
     </div>
 </body>
+
 </html>
