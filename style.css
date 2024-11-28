@@ -24,6 +24,7 @@ html {
 .logo {
   border-right: 0.13rem solid #f1f1f1;
   letter-spacing: 0.5rem;
+  cursor: pointer;
 }
 
 .navbar li {
